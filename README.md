@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# goNaturalUSA app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to goNaturalUSA app. Why this name ? This name emphasizes the natural beauty and serenity of the national parks. It suggests a focus on the landscapes, wildlife, and the overall experience of being in nature.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This app is a guide, inspiration, recolection of the best way to prepare to visit the USA National Park.
 
-### `npm start`
+### Problem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+One of our hobbies is discovering new places and enjoying nature, and one of our wishes is to visit each national park because they offer wild and beautiful views, adventures, and an easy way to immerse ourselves in nature and absorb great vibes. When I begin to plan a trip, I find myself typing and visiting various websites such as Google Maps, YouTube, Kayak, Skyscanner, and Visitacity. I would like to create an app that consolidates everything in one place to assist me in building my trip and, at the same time, to be mindful of my budget. In other words, I aim to travel on a budget and plan my next adventure where it is most convenient.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### User Profile
 
-### `npm test`
+The app will be designed for individuals who want to learn, explore, or visit the USA national parks in the most convenient way. Users should be able to view a map of the USA, indicating the location of each park by state (facilitated through this visual representation). They can then select a park they wish to explore and discover the best prices through a link that identifies the optimal travel destinations for a specific time and location. Additionally, users can find a link to help them build a travel plan for a specific city or state, allowing them to explore top places efficiently.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### Features
 
-### `npm run build`
+Parks Descriptions, Location and links in the Home-Page /  Gallery Functionality: A robust feature to help users see beautiful pictures of the park using a Google Image API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###### Installation Instruccions 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To see or install goNaturalApp the app in your local machine , follow these steps: 
+1. You need to git clone the repositories go-natural-usa; 
+2. Navigate to the project directory.
+3. Do not forget to make npm i before run them. 
+4. To use the free API you need to generate your own APIkey through: https://www.nps.gov/subjects/developer/get-started.htm. 
+5. You can see the port on use is 8086 and you can change it at the file .env. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###### Tech Stack
 
-### `npm run eject`
+REACT, JS, HTML, CSS, SASS, Responsive Sites.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+###### Data
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+My data are coming National Park Service Data Store.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+###### APIs
 
-## Learn More
+I am using the NPS API . The National Park Service API (application programming interface) and developer resources are designed to provide authoritative NPS data and content for internal and external developers creating apps, maps, and websites. You'll find photos and essential information about NPS sites including visitor centers, campgrounds, events, news, alerts, and more, as well as detailed articles about NPS natural and cultural features and important people and places.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###### Notes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The site was developed to be reactive and to change the format at three sizes:
 
-### Code Splitting
+less than 786 pixels > then use mobile formatting
+between 786 pixels and less than 1280 pixels > then use tablet formatting
+more than 1280 pixels > then use desktop formatting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you want to see this project deployed and in action, please go to: https://gonaturalusa.us/
 
-### Analyzing the Bundle Size
+###### Nice-to-haves
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+My future plan includes building additional features and continuing learning developing the following features:
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+###### Contributing
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We welcome contributions! Please send me an email for details at drv0228@gmail.com and how you want to contribute.
